@@ -39,14 +39,12 @@ const Home = ({ setSelectedPage }: Props) => {
           >
             <div className="relative">
               <div className="before:absolute before:-top-20 before:-left-20 before:z-[-1] md:before:content-evolvetext">
-                <img alt="home-page-text" src={HomePageText} />
+                <img alt="home-page-text" src={HomePageText} width="500" />
               </div>
             </div>
 
             <p className="mt-8 text-sm">
-              Unrivaled Gym. Unparalleled Training Fitness Classes. World Class
-              Studios to get the Body Shapes That you Dream of.. Get Your Dream
-              Body Now.
+              BETTER INTRO NEEDED 
             </p>
           </motion.div>
 
@@ -68,7 +66,7 @@ const Home = ({ setSelectedPage }: Props) => {
             <AnchorLink
               className="text-sm font-bold text-primary-500 underline hover:text-secondary-500"
               onClick={() => setSelectedPage(SelectedPage.ContactUs)}
-              href={`#${SelectedPage.ContactUs}`}
+              href={`#${SelectedPage.Benefits}`}
             >
               <p>Learn More</p>
             </AnchorLink>

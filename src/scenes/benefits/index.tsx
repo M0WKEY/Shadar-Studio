@@ -13,19 +13,19 @@ import Benefit from "./Benefit";
 const benefits: Array<BenefitType> = [
   {
     icon: <HomeModernIcon className="h-6 w-6" />,
-    title: "State of the Art Facilities",
+    title: "Studio",
     description:
       "Neque adipiscing amet amet enim. Feugiat dolor enim fermentum in a in lectus pellentesque. Ullamcorper et.",
   },
   {
     icon: <UserGroupIcon className="h-6 w-6" />,
-    title: "100's of Diverse Classes",
+    title: "Individual or small groups",
     description:
       "Eu ipsum id egestas risus tempus enim semper felis quis. Nec consectetur ac venenatis facilisi est. Eget ac turpis id.",
   },
   {
     icon: <AcademicCapIcon className="h-6 w-6" />,
-    title: "Expert and Pro Trainers",
+    title: "Outdoor Possibilities",
     description:
       "Fusce vestibulum aliquam ut cras. Nisl lectus egestas sapien nisl. Lacus at mi sit pellentesque. Congue parturient.",
   },
@@ -60,11 +60,9 @@ const Benefits = ({ setSelectedPage }: Props) => {
             visible: { opacity: 1, x: 0 },
           }}
         >
-          <HText>MORE THAN JUST GYM.</HText>
+          <HText>AT YOUR CONVENIENCE.</HText>
           <p className="my-5 text-sm">
-            We provide world class fitness equipment, trainers and classes to
-            get you to your ultimate fitness goals with ease. We provide true
-            care into each and every member.
+            VARIETY OF YOGA EXPERIENCES/ CLASSES YOU CAN TAKE
           </p>
         </motion.div>
 
@@ -112,8 +110,8 @@ const Benefits = ({ setSelectedPage }: Props) => {
                   }}
                 >
                   <HText>
-                    MILLIONS OF HAPPY MEMBERS GETTING{" "}
-                    <span className="text-primary-500">FIT</span>
+                    OUR{" "}
+                    <span className="text-primary-500">MANTRA</span>
                   </HText>
                 </motion.div>
               </div>
@@ -150,7 +148,7 @@ const Benefits = ({ setSelectedPage }: Props) => {
             <div className="relative mt-16">
               <div className="before:absolute before:-bottom-20 before:right-40 before:z-[-1] before:content-sparkles">
                 <ActionButton setSelectedPage={setSelectedPage}>
-                  Join Now
+                  Contact us!
                 </ActionButton>
               </div>
             </div>
