@@ -143,11 +143,78 @@ const ContactUs = ({ setSelectedPage }: Props) => {
             }}
           >
             <div className="w-full before:absolute before:-bottom-20 before:-right-10 before:z-[-1] md:before:content-evolvetext">
-              <img
-                className="w-full"
-                alt="contact-us-page-graphic"
-                src={ContactUsPageGraphic}
-              />
+            <div className="w-full overflow-x-auto">
+  <table className="table-auto border-collapse w-full">
+    <thead>
+      <tr className="rounded-lg text-sm font-medium text-gray-700 text-left">
+        <th className="px-4 py-2 bg-gray-200">Day</th>
+        <th className="px-4 py-2 bg-gray-200">Class</th>
+        <th className="px-4 py-2 bg-gray-200">Time</th>
+        <th className="px-4 py-2 bg-gray-200">Focus</th>
+      </tr>
+    </thead>
+    <tbody className="text-sm font-normal text-gray-700">
+      <tr className="hover:bg-gray-100 border-b border-gray-200 py-10">
+        <td className="px-4 py-4">Monday</td>
+        <td className="px-4 py-4">Vinyasa Flow</td>
+        <td className="px-4 py-4">6:00 PM - 7:00 PM</td>
+        <td className="px-4 py-4">
+          Dynamic flow and synchronizing breath with movement
+        </td>
+      </tr>
+      <tr className="hover:bg-gray-100 border-b border-gray-200 py-10">
+        <td className="px-4 py-4">Tuesday</td>
+        <td className="px-4 py-4">Flexibility Training</td>
+        <td className="px-4 py-4">5:30 PM - 6:30 PM</td>
+        <td className="px-4 py-4">
+          Stretching exercises to improve overall flexibility and mobility
+        </td>
+      </tr>
+      <tr className="hover:bg-gray-100 border-b border-gray-200 py-10">
+        <td className="px-4 py-4">Wednesday</td>
+        <td className="px-4 py-4">Flexibility Training</td>
+        <td className="px-4 py-4">5:30 PM - 6:30 PM</td>
+        <td className="px-4 py-4">
+          Stretching exercises to improve overall flexibility and mobility
+        </td>
+      </tr>
+      <tr className="hover:bg-gray-100 border-b border-gray-200 py-10">
+        <td className="px-4 py-4">Thursday</td>
+        <td className="px-4 py-4">Flexibility Training</td>
+        <td className="px-4 py-4">5:30 PM - 6:30 PM</td>
+        <td className="px-4 py-4">
+          Stretching exercises to improve overall flexibility and mobility
+        </td>
+      </tr>
+      <tr className="hover:bg-gray-100 border-b border-gray-200 py-10">
+        <td className="px-4 py-4">Friday</td>
+        <td className="px-4 py-4">Flexibility Training</td>
+        <td className="px-4 py-4">5:30 PM - 6:30 PM</td>
+        <td className="px-4 py-4">
+          Stretching exercises to improve overall flexibility and mobility
+        </td>
+      </tr>
+      <tr className="hover:bg-gray-100 border-b border-gray-200 py-10">
+        <td className="px-4 py-4">Saturday</td>
+        <td className="px-4 py-4">Flexibility Training</td>
+        <td className="px-4 py-4">5:30 PM - 6:30 PM</td>
+        <td className="px-4 py-4">
+          Stretching exercises to improve overall flexibility and mobility
+        </td>
+      </tr>
+      <tr className="hover:bg-gray-100 border-b border-gray-200 py-10">
+        <td className="px-4 py-4">Sunday</td>
+        <td className="px-4 py-4">Flexibility Training</td>
+        <td className="px-4 py-4">5:30 PM - 6:30 PM</td>
+        <td className="px-4 py-4">
+          Stretching exercises to improve overall flexibility and mobility
+        </td>
+      </tr>
+      {/* Add more rows for the rest of the week */}
+    </tbody>
+  </table>
+</div>
+
             </div>
           </motion.div>
         </div>

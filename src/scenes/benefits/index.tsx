@@ -15,19 +15,19 @@ const benefits: Array<BenefitType> = [
     icon: <HomeModernIcon className="h-6 w-6" />,
     title: "Studio",
     description:
-      "Neque adipiscing amet amet enim. Feugiat dolor enim fermentum in a in lectus pellentesque. Ullamcorper et.",
+      "Small intimate studio with great valley views",
   },
   {
     icon: <UserGroupIcon className="h-6 w-6" />,
     title: "Individual or small groups",
     description:
-      "Eu ipsum id egestas risus tempus enim semper felis quis. Nec consectetur ac venenatis facilisi est. Eget ac turpis id.",
+      "vary of class options from 1 on 1 classes or small groups",
   },
   {
     icon: <AcademicCapIcon className="h-6 w-6" />,
     title: "Outdoor Possibilities",
     description:
-      "Fusce vestibulum aliquam ut cras. Nisl lectus egestas sapien nisl. Lacus at mi sit pellentesque. Congue parturient.",
+      "Outdoor options available to have nature around and earth",
   },
 ];
 
