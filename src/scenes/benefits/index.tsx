@@ -92,6 +92,7 @@ const Benefits = ({ setSelectedPage }: Props) => {
             className="mx-auto"
             alt="benefits-page-graphic"
             src={BenefitsPageGraphic}
+            style={{ width: '250px', height: 'auto' }}
           />
 
           {/* DESCRIPTION */}
@@ -111,7 +112,7 @@ const Benefits = ({ setSelectedPage }: Props) => {
                 >
                   <HText>
                     OUR{" "}
-                    <span className="text-primary-500">MANTRA</span>
+                    <span className="text-primary-500">AMBITION</span>
                   </HText>
                 </motion.div>
               </div>
@@ -129,18 +130,16 @@ const Benefits = ({ setSelectedPage }: Props) => {
               }}
             >
               <p className="my-5">
-                Nascetur aenean massa auctor tincidunt. Iaculis potenti amet
-                egestas ultrices consectetur adipiscing ultricies enim. Pulvinar
-                fames vitae vitae quis. Quis amet vulputate tincidunt at in
-                nulla nec. Consequat sed facilisis dui sit egestas ultrices
-                tellus. Ullamcorper arcu id pretium sapien proin integer nisl.
-                Felis orci diam odio.
+              Our goal is to provide accessible and high-quality yoga resources,
+               including instructional videos(to be released), 
+               guided meditations to support individuals of all levels in their yoga journey. 
+               We aim to cultivate a welcoming and inclusive environment where people can explore and deepen their practice, 
+               find support and inspiration, and experience the transformative benefits of yoga in their daily lives. Through our website, 
+               we aspire to empower individuals to prioritize self-care, 
+               enhance their mind-body connection, and cultivate inner peace and strength.
               </p>
               <p className="mb-5">
-                Fringilla a sed at suspendisse ut enim volutpat. Rhoncus vel est
-                tellus quam porttitor. Mauris velit euismod elementum arcu neque
-                facilisi. Amet semper tortor facilisis metus nibh. Rhoncus sit
-                enim mattis odio in risus nunc.
+                We hope that you can find a balance of peace, body and energy from our classes
               </p>
             </motion.div>
 
