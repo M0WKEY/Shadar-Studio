@@ -44,7 +44,7 @@ const Home = ({ setSelectedPage }: Props) => {
             </div>
 
             <p className="mt-8 text-sm">
-              BETTER INTRO NEEDED 
+            Inhale peace, exhale stress. Find balance in every breath.
             </p>
           </motion.div>
 

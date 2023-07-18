@@ -21,12 +21,15 @@ const Class = ({ name, description, image }: Props) => {
   };
 
   return (
-    <li className="relative mx-2 p-2" style={{ listStyle: "none" }}>
-      <div className={overlayStyles}>
-        <p className="text-2xl">{name}</p>
-        {description && <p className="mt-5">{description}</p>}
-      </div>
+    <li className="relative mx-2 p-2 text-center" style={{ listStyle: "none" }}>
+      <p className="text-2xl">{name}</p>
       <img alt={name} src={image} style={imageStyles} />
+      {description && (
+        <p
+          className="mt-5 text-center"
+          dangerouslySetInnerHTML={{ __html: description.replace(/\n/g, "<br />") }}
+        />
+      )}
     </li>
   );
 };
