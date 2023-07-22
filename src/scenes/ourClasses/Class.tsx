@@ -1,10 +1,22 @@
+import React from "react";
+
 type Props = {
   name: string;
   description?: string;
   image: string;
 };
 
-const Class = ({ name, description, image }: Props) => {
+type ObjectFit = "contain" | "cover" | "fill" | "none" | "scale-down";
+
+type ImageStyles = {
+  width: string;
+  height: string;
+  objectFit: ObjectFit;
+  objectPosition: string;
+  borderRadius: string;
+};
+
+const Class: React.FC<Props> = ({ name, description, image }) => {
   const overlayStyles = `
     p-5 absolute z-30 flex
     h-[100%] w-[100%] flex-col items-center justify-center
@@ -12,7 +24,7 @@ const Class = ({ name, description, image }: Props) => {
     opacity-0 transition duration-500 hover:opacity-90
   `;
 
-  const imageStyles = {
+  const imageStyles: ImageStyles = {
     width: "400px",
     height: "400px",
     objectFit: "cover",
