@@ -58,7 +58,7 @@ const OurClasses = ({ setSelectedPage }: Props) => {
           <div className="md:w-3/5">
             <HText>OUR CLASSES</HText>
             <p className="py-5">
-              OUTLINE OF OUR CLASSES NEEDS MORE INFO
+              Come take any of our different classes, ALL LEVELS WELCOME
             </p>
           </div>
         </motion.div>

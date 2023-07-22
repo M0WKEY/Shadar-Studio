@@ -66,7 +66,8 @@ const ContactUs = ({ setSelectedPage }: Props) => {
             <form
               // target="_blank"
               onSubmit={onSubmit}
-              action="https://formsubmit.co/ba6afc28ccf425f6f4931fd42086b982"
+              // action="https://formsubmit.co/ba6afc28ccf425f6f4931fd42086b982"
+              action="https://formsubmit.co/701fb7f48062fa076d7a5592c451bb3f"
               method="POST"
             >
               <input
@@ -156,7 +157,7 @@ const ContactUs = ({ setSelectedPage }: Props) => {
     <tbody className="text-sm font-normal text-gray-700">
       <tr className="hover:bg-gray-100 border-b border-gray-200 py-10">
         <td className="px-4 py-4">Monday</td>
-        <td className="px-4 py-4">Vinyasa Flow</td>
+        <td className="px-4 py-4">Vinyasa </td>
         <td className="px-4 py-4">6:00 PM - 7:00 PM</td>
         <td className="px-4 py-4">
           Dynamic flow and synchronizing breath with movement
@@ -164,7 +165,7 @@ const ContactUs = ({ setSelectedPage }: Props) => {
       </tr>
       <tr className="hover:bg-gray-100 border-b border-gray-200 py-10">
         <td className="px-4 py-4">Tuesday</td>
-        <td className="px-4 py-4">Flexibility Training</td>
+        <td className="px-4 py-4">Flexibility</td>
         <td className="px-4 py-4">5:30 PM - 6:30 PM</td>
         <td className="px-4 py-4">
           Stretching exercises to improve overall flexibility and mobility
@@ -172,23 +173,23 @@ const ContactUs = ({ setSelectedPage }: Props) => {
       </tr>
       <tr className="hover:bg-gray-100 border-b border-gray-200 py-10">
         <td className="px-4 py-4">Wednesday</td>
-        <td className="px-4 py-4">Flexibility Training</td>
+        <td className="px-4 py-4">Ab Core Classes</td>
         <td className="px-4 py-4">5:30 PM - 6:30 PM</td>
         <td className="px-4 py-4">
-          Stretching exercises to improve overall flexibility and mobility
+          Strengthening exercises focusing on core/abs
         </td>
       </tr>
       <tr className="hover:bg-gray-100 border-b border-gray-200 py-10">
         <td className="px-4 py-4">Thursday</td>
-        <td className="px-4 py-4">Flexibility Training</td>
+        <td className="px-4 py-4">Restorative</td>
         <td className="px-4 py-4">5:30 PM - 6:30 PM</td>
         <td className="px-4 py-4">
-          Stretching exercises to improve overall flexibility and mobility
+          Rest and conditioning with the focus of stretching and relaxation to restore aspects of the body 
         </td>
       </tr>
       <tr className="hover:bg-gray-100 border-b border-gray-200 py-10">
         <td className="px-4 py-4">Friday</td>
-        <td className="px-4 py-4">Flexibility Training</td>
+        <td className="px-4 py-4">Vinyasa</td>
         <td className="px-4 py-4">5:30 PM - 6:30 PM</td>
         <td className="px-4 py-4">
           Stretching exercises to improve overall flexibility and mobility
@@ -196,7 +197,7 @@ const ContactUs = ({ setSelectedPage }: Props) => {
       </tr>
       <tr className="hover:bg-gray-100 border-b border-gray-200 py-10">
         <td className="px-4 py-4">Saturday</td>
-        <td className="px-4 py-4">Flexibility Training</td>
+        <td className="px-4 py-4">Flexibility</td>
         <td className="px-4 py-4">5:30 PM - 6:30 PM</td>
         <td className="px-4 py-4">
           Stretching exercises to improve overall flexibility and mobility
@@ -204,10 +205,10 @@ const ContactUs = ({ setSelectedPage }: Props) => {
       </tr>
       <tr className="hover:bg-gray-100 border-b border-gray-200 py-10">
         <td className="px-4 py-4">Sunday</td>
-        <td className="px-4 py-4">Flexibility Training</td>
+        <td className="px-4 py-4">Ab core Classes</td>
         <td className="px-4 py-4">5:30 PM - 6:30 PM</td>
         <td className="px-4 py-4">
-          Stretching exercises to improve overall flexibility and mobility
+        Strengthening exercises focusing on core/abs
         </td>
       </tr>
       {/* Add more rows for the rest of the week */}

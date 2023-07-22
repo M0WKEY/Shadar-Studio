@@ -21,7 +21,7 @@ const benefits: Array<BenefitType> = [
     icon: <UserGroupIcon className="h-6 w-6" />,
     title: "Individual or small groups",
     description:
-      "vary of class options from 1 on 1 classes or small groups",
+      "Variety of class options from 1 on 1 classes or small groups",
   },
   {
     icon: <AcademicCapIcon className="h-6 w-6" />,
