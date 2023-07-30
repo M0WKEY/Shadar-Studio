@@ -151,7 +151,7 @@ const ContactUs = ({ setSelectedPage }: Props) => {
         <th className="px-4 py-2 bg-gray-200">Day</th>
         <th className="px-4 py-2 bg-gray-200">Class</th>
         <th className="px-4 py-2 bg-gray-200">Time</th>
-        <th className="px-4 py-2 bg-gray-200">Focus</th>
+        <th className="px-4 py-2 bg-gray-200">Teacher</th>
       </tr>
     </thead>
     <tbody className="text-sm font-normal text-gray-700">
@@ -160,7 +160,7 @@ const ContactUs = ({ setSelectedPage }: Props) => {
         <td className="px-4 py-4">Vinyasa </td>
         <td className="px-4 py-4">6:00 PM - 7:00 PM</td>
         <td className="px-4 py-4">
-          Dynamic flow and synchronizing breath with movement
+          Marylee Poon
         </td>
       </tr>
       <tr className="hover:bg-gray-100 border-b border-gray-200 py-10">
@@ -168,7 +168,7 @@ const ContactUs = ({ setSelectedPage }: Props) => {
         <td className="px-4 py-4">Flexibility</td>
         <td className="px-4 py-4">5:30 PM - 6:30 PM</td>
         <td className="px-4 py-4">
-          Stretching exercises to improve overall flexibility and mobility
+          Fiona Maxwell
         </td>
       </tr>
       <tr className="hover:bg-gray-100 border-b border-gray-200 py-10">
@@ -176,7 +176,7 @@ const ContactUs = ({ setSelectedPage }: Props) => {
         <td className="px-4 py-4">Ab Core Classes</td>
         <td className="px-4 py-4">5:30 PM - 6:30 PM</td>
         <td className="px-4 py-4">
-          Strengthening exercises focusing on core/abs
+          Marylee Poon
         </td>
       </tr>
       <tr className="hover:bg-gray-100 border-b border-gray-200 py-10">
@@ -184,7 +184,7 @@ const ContactUs = ({ setSelectedPage }: Props) => {
         <td className="px-4 py-4">Restorative</td>
         <td className="px-4 py-4">5:30 PM - 6:30 PM</td>
         <td className="px-4 py-4">
-          Rest and conditioning with the focus of stretching and relaxation to restore aspects of the body 
+          Porscha Smith
         </td>
       </tr>
       <tr className="hover:bg-gray-100 border-b border-gray-200 py-10">
@@ -192,7 +192,7 @@ const ContactUs = ({ setSelectedPage }: Props) => {
         <td className="px-4 py-4">Vinyasa</td>
         <td className="px-4 py-4">5:30 PM - 6:30 PM</td>
         <td className="px-4 py-4">
-          Stretching exercises to improve overall flexibility and mobility
+        Marylee Poon
         </td>
       </tr>
       <tr className="hover:bg-gray-100 border-b border-gray-200 py-10">
@@ -200,7 +200,7 @@ const ContactUs = ({ setSelectedPage }: Props) => {
         <td className="px-4 py-4">Flexibility</td>
         <td className="px-4 py-4">5:30 PM - 6:30 PM</td>
         <td className="px-4 py-4">
-          Stretching exercises to improve overall flexibility and mobility
+          Mark Symons
         </td>
       </tr>
       <tr className="hover:bg-gray-100 border-b border-gray-200 py-10">
@@ -208,7 +208,7 @@ const ContactUs = ({ setSelectedPage }: Props) => {
         <td className="px-4 py-4">Ab core Classes</td>
         <td className="px-4 py-4">5:30 PM - 6:30 PM</td>
         <td className="px-4 py-4">
-        Strengthening exercises focusing on core/abs
+        Mark Symons
         </td>
       </tr>
       {/* Add more rows for the rest of the week */}
