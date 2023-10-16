@@ -22,7 +22,7 @@ const Footer = () => {
          
           <p>maryleemarylee@hotmail.com</p>
           <p>2325 Palos Verdes Dr. West</p>
-          <p>Verdes Estates, CA 90274</p>
+          <p>Palos Verdes Estates, CA 90274</p>
           <p>Phone: 310 373 5888</p>
           
         </div>
