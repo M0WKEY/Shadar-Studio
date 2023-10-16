@@ -18,7 +18,7 @@ const classes: Array<ClassType> = [
     name: "Flexibility",
     description:
     "Focuses on improving flexibility through a series of poses and stretches focusnig on proper form and function will help you build a safe, fun and nurturing practice",
-    
+    image: image2,
   },
   {
     name: "Ab Core Classes",
