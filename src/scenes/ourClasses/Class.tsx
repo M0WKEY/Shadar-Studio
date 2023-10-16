@@ -17,31 +17,33 @@ type ImageStyles = {
 };
 
 const Class: React.FC<Props> = ({ name, description, image }) => {
-  const overlayStyles = `
-    p-5 absolute z-30 flex
-    h-[100%] w-[100%] flex-col items-center justify-center
-    whitespace-normal bg-primary-500 text-center text-white
-    opacity-0 transition duration-500 hover:opacity-90
-  `;
+  const boxStyles = {
+    border: "2px solid #000", // Add border styling
+    borderRadius: "10px",     // Add rounded corners
+    padding: "20px",         // Add padding
+    textAlign: "center",     // Center text
+  };
 
   const imageStyles: ImageStyles = {
     width: "400px",
     height: "400px",
     objectFit: "cover",
     objectPosition: "center",
-    borderRadius: "10px",
+    borderRadius: "10px", // Apply the same border radius to the image
   };
 
   return (
     <li className="relative mx-2 p-2 text-center" style={{ listStyle: "none" }}>
-      <p className="text-2xl">{name}</p>
-      <img alt={name} src={image} style={imageStyles} />
-      {description && (
-        <p
-          className="mt-5 text-center"
-          dangerouslySetInnerHTML={{ __html: description.replace(/\n/g, "<br />") }}
-        />
-      )}
+      <div style={boxStyles}>
+        <p className="text-2xl">{name}</p>
+
+        {description && (
+          <p
+            className="mt-5 text-center"
+            dangerouslySetInnerHTML={{ __html: description.replace(/\n/g, "<br />") }}
+          />
+        )}
+      </div>
     </li>
   );
 };

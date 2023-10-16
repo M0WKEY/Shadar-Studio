@@ -11,25 +11,25 @@ const classes: Array<ClassType> = [
   {
     name: "Vinyasa",
     description:
-      "$45 \n Focuses on the “flow” because of the smooth way the poses run together, that synchronizes movement with breath and includes many different types of yoga, including Ashtanga and power yoga",
+      "Focuses on the “flow” because of the smooth way the poses run together, that synchronizes movement with breath and includes many different types of yoga, including Ashtanga and power yoga",
     image: image1,
   },
   {
     name: "Flexibility",
     description:
-    "$30 \n Focuses on improving flexibility through a series of poses and stretches focusnig on proper form and function will help you build a safe, fun and nurturing practice",
-    image: image2,
+    "Focuses on improving flexibility through a series of poses and stretches focusnig on proper form and function will help you build a safe, fun and nurturing practice",
+    
   },
   {
     name: "Ab Core Classes",
     description:
-      "$25 \n Combination of traditional yoga poses with Pilates-inspired exercises to help build abdominal strength from the inside out",
+      "Combination of traditional yoga poses with Pilates-inspired exercises to help build abdominal strength from the inside out",
     image: image3,
   },
   {
     name: "Restorative",
     description:
-      "$20 \n Restorative yoga can help the body move out of stress and into rest, and has various benefits for different conditions and needs through stretching, deep relaxation, and meditation that uses props to support the body in different poses",
+      "Restorative yoga can help the body move out of stress and into rest, and has various benefits for different conditions and needs through stretching, deep relaxation, and meditation that uses props to support the body in different poses",
     image: image4,
   },
 ];
@@ -68,14 +68,13 @@ const OurClasses = ({ setSelectedPage }: Props) => {
               <Class
                 name={classes[0].name}
                 description={classes[0].description}
-                image={classes[0].image}
+                
               />
             </div>
             <div className="w-full h-full">
               <Class
                 name={classes[1].name}
                 description={classes[1].description}
-                image={classes[1].image}
               />
             </div>
           </div>

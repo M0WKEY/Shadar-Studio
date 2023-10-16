@@ -130,13 +130,12 @@ const Benefits = ({ setSelectedPage }: Props) => {
               }}
             >
               <p className="my-5">
-              Our goal is to provide accessible and high-quality yoga resources,
-               including instructional videos(to be released), 
+              Our goal is to provide accessible and high-quality yoga resources, including instructional videos(to be released),
                guided meditations to support individuals of all levels in their yoga journey. 
                We aim to cultivate a welcoming and inclusive environment where people can explore and deepen their practice, 
-               find support and inspiration, and experience the transformative benefits of yoga in their daily lives. Through our website, 
-               we aspire to empower individuals to prioritize self-care, 
-               enhance their mind-body connection, and cultivate inner peace and strength.
+               find support and inspiration, and experience the transformative benefits of yoga in their daily lives. 
+               Through our Studio, we aspire to empower individuals to prioritize self-care, enhance their mind-body connection, 
+               and cultivate inner peace and strength.
               </p>
               <p className="mb-5">
                 We hope that you can find a balance of peace, body and energy from our classes
