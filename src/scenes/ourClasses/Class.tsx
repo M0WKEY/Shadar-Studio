@@ -3,7 +3,7 @@ import React from "react";
 type Props = {
   name: string;
   description?: string;
-  image: string;
+  image?: string;
 };
 
 type ObjectFit = "contain" | "cover" | "fill" | "none" | "scale-down";
@@ -17,11 +17,11 @@ type ImageStyles = {
 };
 
 const Class: React.FC<Props> = ({ name, description, image }) => {
-  const boxStyles = {
-    border: "2px solid #000", // Add border styling
-    borderRadius: "10px",     // Add rounded corners
-    padding: "20px",         // Add padding
-    textAlign: "center",     // Center text
+  const boxStyles: React.CSSProperties = {
+    border: "2px solid #000",
+    borderRadius: "10px",
+    padding: "20px",
+    textAlign: "center" as "center", // Explicitly specify it as TextAlign
   };
 
   const imageStyles: ImageStyles = {
