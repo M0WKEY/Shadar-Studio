@@ -1,8 +1,8 @@
 import { SelectedPage, ClassType } from "@/shared/types";
 import image1 from "@/assets/image1.jpg";
-import image2 from "@/assets/image2.jpg";
-import image3 from "@/assets/image3.jpg";
-import image4 from "@/assets/image4.jpg";
+// import image2 from "@/assets/image2.jpg";
+// import image3 from "@/assets/image3.jpg";
+// import image4 from "@/assets/image4.jpg";
 import { motion } from "framer-motion";
 import HText from "@/shared/HText";
 import Class from "./Class";
@@ -18,19 +18,19 @@ const classes: Array<ClassType> = [
     name: "Flexibility",
     description:
     "Focuses on improving flexibility through a series of poses and stretches focusnig on proper form and function will help you build a safe, fun and nurturing practice",
-    image: image2,
+    image: image1,
   },
   {
     name: "Ab Core Classes",
     description:
       "Combination of traditional yoga poses with Pilates-inspired exercises to help build abdominal strength from the inside out",
-    image: image3,
+    image: image1,
   },
   {
     name: "Restorative",
     description:
       "Restorative yoga can help the body move out of stress and into rest, and has various benefits for different conditions and needs through stretching, deep relaxation, and meditation that uses props to support the body in different poses",
-    image: image4,
+    image: image1,
   },
 ];
 
