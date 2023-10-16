@@ -7,7 +7,7 @@ import {
   AcademicCapIcon,
 } from "@heroicons/react/24/solid";
 import { motion } from "framer-motion";
-import BenefitsPageGraphic from "@/assets/BenefitsPageGraphic.png";
+// import BenefitsPageGraphic from "@/assets/BenefitsPageGraphic.png";
 import Benefit from "./Benefit";
 
 const benefits: Array<BenefitType> = [
@@ -88,12 +88,12 @@ const Benefits = ({ setSelectedPage }: Props) => {
         {/* GRAPHICS AND DESCRIPTION */}
         <div className="mt-16 items-center justify-between gap-20 md:mt-28 md:flex">
           {/* GRAPHIC */}
-          <img
+          {/* <img
             className="mx-auto"
             alt="benefits-page-graphic"
             src={BenefitsPageGraphic}
             style={{ width: '250px', height: 'auto' }}
-          />
+          /> */}
 
           {/* DESCRIPTION */}
           <div>
