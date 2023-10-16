@@ -21,6 +21,9 @@ const Footer = () => {
           <h4 className="font-bold">Contact Us</h4>
          
           <p>maryleemarylee@hotmail.com</p>
+          <p>2325 Palos Verdes Dr. West</p>
+          <p>Verdes Estates, CA 90274</p>
+          <p>Phone: 310 373 5888</p>
           
         </div>
       </div>
